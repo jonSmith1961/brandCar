@@ -1,0 +1,75 @@
+{
+	"name": "yiisoft/yii2-app-advanced",
+	"description": "Yii 2 Advanced Project Template",
+	"keywords": [
+		"yii2",
+		"framework",
+		"advanced",
+		"project template"
+	],
+	"homepage": "http://www.yiiframework.com/",
+	"type": "project",
+	"license": "BSD-3-Clause",
+	"support": {
+		"issues": "https://github.com/yiisoft/yii2/issues?state=open",
+		"forum": "http://www.yiiframework.com/forum/",
+		"wiki": "http://www.yiiframework.com/wiki/",
+		"irc": "irc://irc.freenode.net/yii",
+		"source": "https://github.com/yiisoft/yii2"
+	},
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=7.1.0",
+		"yiisoft/yii2": "~2.0.14",
+		"yiisoft/yii2-bootstrap": "~2.0.0",
+		"yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+		"ext-json": "*",
+		"yii2mod/yii2-rbac": "*",
+		"2amigos/yii2-date-picker-widget": "~1.0",
+		"2amigos/yii2-date-time-picker-widget": "~1.0",
+		"kartik-v/yii2-widget-colorinput": "*",
+		"borysenko/yii2-user-component": "*",
+		"ext-dom": "*",
+		"mero/yii2-monolog": "^0.1.2",
+		"yiisoft/yii2-imagine": "^2.2",
+		"ext-fileinfo": "*",
+		"phpoffice/phpexcel": "~1.8",
+		"kartik-v/yii2-widget-timepicker": "dev-master",
+		"unclead/yii2-multiple-input": "~2.0",
+		"skobka/yii2-json-field": "^1.0",
+		"gumlet/php-image-resize": "^2.0",
+		"kartik-v/yii2-widget-select2": "*",
+		"wbraganca/yii2-enumerables": "~1.1",
+		"wbraganca/yii2-dynamicform": "*",
+		"kartik-v/yii2-widget-fileinput": "dev-master",
+		"2amigos/yii2-ckeditor-widget": "^2.1",
+		"codeception/module-phpbrowser": "^1.0",
+		"codeception/specify": "*",
+		"codeception/verify": "*",
+		"symfony/event-dispatcher": "^5.2",
+		"omnilight/yii2-sypexgeo": "*",
+		"phpnt/yandex-map": "*"
+	},
+	"require-dev": {
+		"yiisoft/yii2-debug": "=2.0.13",
+		"yiisoft/yii2-gii": "~2.1.0",
+		"yiisoft/yii2-faker": "~2.0.0",
+		"codeception/codeception": "^4.0",
+		"codeception/module-asserts": "^1.0",
+		"codeception/module-yii2": "^1.0",
+		"codeception/module-filesystem": "^1.0",
+		"symfony/browser-kit": ">=2.7 <=4.2.4"
+	},
+	"config": {
+		"process-timeout": 1800,
+		"fxp-asset": {
+			"enabled": false
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
+}

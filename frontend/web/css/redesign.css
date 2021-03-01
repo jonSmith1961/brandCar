@@ -1,0 +1,148 @@
+h1.models-title__title {
+	margin-left: 25%;
+}
+.news-detail__title.content__title,
+.center-red:not(#fake) {
+	font-size: 26px;
+	text-align: center !important;
+	font-weight: 600;
+	/* font-family: 'Arial', sans-serif; */
+	color: #131313;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.news-detail__title.content__title span,
+.center-red:not(#fake) span {
+	border-bottom: 3px solid #d72b2b;
+	font-weight: 600;
+	line-height: 50px;
+	padding-bottom: 3px;
+}
+
+.content__title span {
+	text-transform: uppercase;
+}
+
+.center-red{
+	text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+	h1.models-title__title {
+		margin-left: 0;
+	}
+
+
+}
+
+.contacts{
+	margin: 25px 0;
+}
+.contacts__title{
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+.contacts__list {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: 55px;
+}
+/* .contacts__list::after {
+  content: "";
+  flex: auto;
+} */
+.contacts__item {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	width: 33%;
+	position: relative;
+}
+.contacts__item-icon{
+	height: 90px;
+	width: 90px;
+	fill: #ff0000;
+}
+.contacts__item-ico {
+	display: inline-block;
+	margin-left: 15px;
+	width: 80px;
+}
+.contacts__item-img {
+	display: inline-block;
+	width: 85px;
+	margin-left: 10px;
+}
+.contacts__item-img img {
+	width: 100%;
+	border-radius: 50%;
+	margin-left: 15px
+}
+.contacts__item-text {
+	display: inline-block;
+	margin-left: 35px;
+	width: 370px;
+	text-align: left;
+	/* position: absolute;
+	top: 50%;
+	transform: translateY(-50%); */
+}
+.contacts__item-text p{
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0;
+}
+.contacts__item-text a{
+	text-decoration: underline;
+}
+.item-stretch {
+	width: 100%!important;
+}
+
+.item-center {
+	align-items: end;
+}
+.text-tab {
+	display: inline-block;
+	cursor: pointer;
+}
+.text-tab-link {
+	display: inline-block;
+}
+
+@media (max-width:1024px) {
+	.contacts__item{
+		width: 49%;
+	}
+}
+@media (max-width:768px) {
+	.contacts__item{
+		width: 100%;
+	}
+}
+@media (max-width:480px) {
+	.contacts__item{
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+	.contacts__item-img{
+		margin: 0;
+	}
+	.contacts__item-img img {
+		margin: 0;
+	}
+	.contacts__item-text {
+		text-align: center;
+		margin: 0;
+	}
+	.item-center {
+		align-items: center;
+	}
+	.contacts__item-ico {
+		margin: 0;
+	}
+}
